@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import service.AddressService;
+import service.CarService;
 import service.DenemeService;
 
 /**
@@ -29,6 +30,10 @@ public class App {
 
         addressService.addAddress();
         addressService.findAddress("Ankara", 60300);
+
+        CarService carService = applicationContext.getBean(CarService.class);
+        carService.addCar();
+        carService.findCar("BMW");
 
 
 

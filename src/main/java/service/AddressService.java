@@ -1,9 +1,11 @@
 package service;
 
 import entity.Address;
-import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.stereotype.Service;
 import repository.AddressRepository;
+
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class AddressService {
@@ -26,9 +28,10 @@ public class AddressService {
         addressRepository.save(address);
     }
 
-    public void deleteAddress()
+    public void deleteAddress(Integer id)
     {
-
+        Optional<Address> deleteItem = addressRepository.findById(id);
+        addressRepository.delete(deleteItem.orElse(new Address()));
     }
 
     public void findAddress(String il, Integer id)
