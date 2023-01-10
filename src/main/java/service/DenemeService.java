@@ -67,7 +67,7 @@ public class DenemeService {
 
         Address add = new Address();
         add.setIlce("Deneme Ilce");
-        add.setPostaKodu("12121");
+        add.setPostaKodu(121212);
         add.setCadde("cadde");
         add.setKapiNo(1);
         add.setSokak("sokak");
