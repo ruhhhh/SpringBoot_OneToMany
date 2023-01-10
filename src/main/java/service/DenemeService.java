@@ -52,9 +52,9 @@ public class DenemeService {
     public void sil(){
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
-        session.get(Employee.class,1);
+        session.get(Employee.class,1L);
         Transaction tx = session.beginTransaction();
-        Employee emp = session.get(Employee.class,1);
+        Employee emp = session.get(Employee.class,1L);
         session.remove(emp);
         tx.commit();
     }
