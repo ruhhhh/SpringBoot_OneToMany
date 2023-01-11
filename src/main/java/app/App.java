@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import service.AddressService;
 import service.CarService;
-import service.DenemeService;
+import service.HumanService;
 
 /**
  * @author hcalpay
@@ -17,26 +17,23 @@ import service.DenemeService;
  */
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"respository", "entitiy", "service"})
-@EnableJpaRepositories(basePackages = "respository")
+@ComponentScan(basePackages = {"repository", "service", "entity"})
+@EnableJpaRepositories(basePackages = "repository")
 @EnableAutoConfiguration
-@EntityScan(basePackages = "entitiy")
+@EntityScan(basePackages = {"entity"})
 public class App {
 
     public static void main(String[] args) {
 
         ApplicationContext applicationContext = SpringApplication.run(App.class, args);
-        AddressService addressService = applicationContext.getBean(AddressService.class);
 
+        AddressService addressService = applicationContext.getBean(AddressService.class);
         addressService.addAddress();
-        addressService.findAddress("Ankara", 60300);
 
         CarService carService = applicationContext.getBean(CarService.class);
         carService.addCar();
-        carService.findCar("BMW");
 
-
-
+        carService.findCar(1);
 
 
     }

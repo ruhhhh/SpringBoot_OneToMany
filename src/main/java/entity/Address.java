@@ -30,7 +30,21 @@ public class Address {
     // Entity sınıfında bulunan bir field'in veritabanında sütun karşılığı olmayacağı anlamına gelmektedir
     @Transient
     private Integer postaKodu2;
-    @OneToOne (mappedBy = "address")
-    private Employee employee;
 
+    @OneToOne(mappedBy = "address")
+    private Human human;
+
+    public Address(String il, String ilce, String sokak, String cadde, Integer kapiNo, Integer postaKodu)
+    {
+        this.il = il;
+        this.ilce = ilce;
+        this.sokak = sokak;
+        this.cadde = cadde;
+        this.kapiNo = kapiNo;
+        this.postaKodu = postaKodu;
+    }
+
+    public Address() {
+
+    }
 }

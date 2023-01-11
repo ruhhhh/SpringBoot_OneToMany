@@ -7,9 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface CarRepository extends JpaRepository<Car, Integer> {
-
-    Optional<Car> findByBrand (String brand);
-
-
+public interface CarRapository extends JpaRepository<Car, Integer> {
+Optional<Car> findById (Integer id);
 }

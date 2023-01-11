@@ -1,5 +1,15 @@
-/Users/umutkilic/Downloads/Hibernate/src/main/java/utils/HibernateUtil.java
-/Users/umutkilic/Downloads/Hibernate/src/main/java/service/DenemeService.java
-/Users/umutkilic/Downloads/Hibernate/src/main/java/entity/Address.java
-/Users/umutkilic/Downloads/Hibernate/src/main/java/app/App.java
-/Users/umutkilic/Downloads/Hibernate/src/main/java/entity/Employee.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/repository/CarRepository.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/service/EmployeeService.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/entity/Employee.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/entity/Car.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/repository/EmployeeRepository.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/service/AddressService.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/repository/InsuranceRepository.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/utils/HibernateUtil.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/entity/Insurance.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/entity/Address.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/service/CarService.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/service/InsuranceService.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/service/DenemeService.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/repository/AddressRepository.java
+/Users/umutkilic/Desktop/Java Eğitimi/SpringBoot_Hibernate_OneToMany/src/main/java/app/App.java
