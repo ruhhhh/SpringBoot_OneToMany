@@ -21,8 +21,8 @@ public class Car {
     private Integer age;
 
     @ManyToOne
-    @JoinColumn (name = "employee_id", nullable = false)
-    private Employee employee;
+    @JoinColumn (name = "human_id", nullable = false)
+    private Human human;
 
 
 
